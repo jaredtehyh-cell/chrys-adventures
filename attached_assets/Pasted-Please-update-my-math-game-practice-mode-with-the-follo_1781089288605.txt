@@ -1,0 +1,215 @@
+Please update my math game practice mode with the following improvements.
+
+
+
+1. Previous button behaviour
+
+
+
+When the child presses the “Previous” button during practice questions:
+
+
+
+* Return to the previous question.
+
+* Show the answer the child originally selected.
+
+* Show the correct answer and solution. 
+
+* Do not allow the child to answer that previous question again unless I specifically add a “Retry” button later.
+
+* Clearly label:
+
+
+
+  * “Your answer: ___”
+
+  * “Correct answer: ___”
+
+* If the child’s answer was correct, show a simple positive message like:
+
+  “Great job!”
+
+* If the child’s answer was wrong, show a gentle message like:
+
+  “Good try. Let’s look at the correct answer.”
+
+
+
+The previous question should appear exactly as it was originally shown, including the same options, same visual objects, and same correct answer.
+
+
+
+2. Store answer history
+
+
+
+For every practice question, save:
+
+
+
+* The question text
+
+* The answer options
+
+* The child’s selected answer
+
+* The correct answer
+
+* Whether the answer was correct
+
+* The visual solution shown for that question
+
+
+
+This is needed so that the “Previous” button can show the past question accurately.
+
+
+
+3. Visual solution for “Which is greater?” questions
+
+
+
+After the child answers a “Which is greater?” question, show a simple visual solution instead of only showing the answer.
+
+
+
+The solution must be designed for children with dyscalculia, so it should be:
+
+
+
+* Visual
+
+* Step-by-step
+
+* Not text-heavy
+
+* Easy to understand
+
+* Child-friendly
+
+* Clear and uncluttered
+
+
+
+For questions comparing positive whole numbers, such as:
+
+
+
+“Which is greater — 8 or 5?”
+
+
+
+Show the solution like this:
+
+
+
+* Show both numbers as two separate rows of objects.
+
+
+
+Example:
+
+
+
+8: ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐
+
+5: ⭐ ⭐ ⭐ ⭐ ⭐
+
+
+
+* Highlight the row with more objects.
+
+* Add a short explanation:
+
+  “8 has more stars than 5.”
+
+  “So, 8 is greater.”
+
+* Use simple wording only.
+
+* Avoid long explanations.
+
+* Add a “Next” button after the solution is shown.
+
+
+
+4. Number limits for practice questions
+
+
+
+For practice questions involving numbers:
+
+
+
+* Do not generate numbers greater than or equal to 10.
+
+* The highest number allowed is 9.
+
+* The numbers should only be from 0 to 9.
+
+* Avoid answers or options such as 10, 11, 12, etc.
+
+
+
+For “Which is greater?” counting questions, only use numbers between 0 and 9 so the child can easily count the objects visually.
+
+
+
+5. UI requirements
+
+
+
+Make the solution screen easy for children with dyscalculia to read:
+
+
+
+* Use large fonts.
+
+* Use clear spacing.
+
+* Use bright but not distracting colours.
+
+* Use simple icons such as stars, coins, apples, or dots.
+
+* Do not show too much text at once.
+
+* Keep the layout consistent between questions.
+
+* Make the correct answer visually obvious, but not overwhelming.
+
+
+
+6. Practice flow
+
+
+
+The practice flow should work like this:
+
+
+
+* Child sees a question.
+
+* Child chooses an answer.
+
+* Game shows whether it is correct or incorrect.
+
+* Game shows the simple visual solution.
+
+* Child presses “Next” to continue.
+
+* If child presses “Previous”, return to the previous question and show:
+
+
+
+  * The question
+
+  * Their chosen answer
+
+  * The correct answer
+
+  * The visual solution again
+
+
+
+Please implement this cleanly without breaking the existing scoring system.

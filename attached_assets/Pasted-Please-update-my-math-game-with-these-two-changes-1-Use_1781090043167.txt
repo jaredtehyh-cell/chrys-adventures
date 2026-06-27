@@ -1,0 +1,92 @@
+Please update my math game with these two changes.
+
+## 1. Use jungle-themed objects consistently
+
+Please make all counting visuals use objects that fit the jungle theme and are relevant to Chrys, the monkey character.
+
+Do not randomly use unrelated objects such as stars, coins, blocks, or base-10 cards unless specifically needed.
+
+Use jungle-related objects such as:
+
+* Bananas
+* Leaves
+* Coconuts
+* Mangoes
+* Jungle flowers
+* Vines
+* Tree fruits
+
+The objects should feel like they belong in Chrys’s jungle world. This is important because the game connects to the Chrys storybook and real-life application, so the visuals should stay consistent with the theme.
+
+For example, for a “Which is greater?” question:
+
+Question: Which is greater — 8 or 5?
+
+Show:
+
+8: 🍌 🍌 🍌 🍌 🍌 🍌 🍌 🍌
+5: 🍌 🍌 🍌 🍌 🍌
+
+Highlight the row with more bananas.
+
+Short explanation:
+
+“8 has more bananas than 5.”
+“So, 8 is greater.”
+
+Please apply this jungle-object style consistently across practice questions, visual solutions, answer explanations, and review screens.
+
+## 2. Change subtraction visuals
+
+Please change the way subtraction questions are explained visually.
+
+Do not show subtraction using two separate base-10 cards or two separate groups.
+
+This is confusing for dyscalculia students because they may count both groups and treat the problem like addition.
+
+Instead, subtraction should use only one group of objects.
+
+For subtraction, show the starting number as one group of jungle objects, then visually cross out the number being taken away.
+
+Example:
+
+Question: 7 - 3 = ?
+
+Show 7 jungle objects:
+
+🍌 🍌 🍌 🍌 🍌 🍌 🍌
+
+Then cross out 3 bananas:
+
+~~🍌~~ ~~🍌~~ ~~🍌~~ 🍌 🍌 🍌 🍌
+
+Then explain simply:
+
+“Start with 7 bananas.”
+“Take away 3 bananas.”
+“4 bananas are left.”
+“So, 7 - 3 = 4.”
+
+The crossed-out objects should still be visible but clearly marked as taken away.
+
+Please make sure subtraction always follows this structure:
+
+1. Show the starting number as one group of jungle objects.
+2. Cross out the objects being taken away.
+3. Let the child count the objects that are not crossed out.
+4. Show the answer.
+5. Use a short explanation with simple wording.
+
+Do not use two cards, two rows, or two separate groups for subtraction.
+
+This visual method is important because it supports symbolic understanding and helps dyscalculia students see subtraction as “taking away,” not as counting two groups together.
+
+## UI requirements
+
+* Keep the layout child-friendly and uncluttered.
+* Use large visuals.
+* Use simple wording.
+* Avoid long explanations.
+* Keep the jungle theme consistent.
+* Make sure the visual solution appears after the child answers the question.
+* Make sure the same visual solution also appears when the child presses the “Previous” button to review an answered question.
